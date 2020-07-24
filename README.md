@@ -7,9 +7,11 @@
 - 解压到服务器
 - 将/data/db.sql导入数据库
 - 配置/public/inc/DB.php 中数据库
---  $this->user = $config['user'] ? $config['user'] : '';
-    $this->pass = $config['pass'] ? $config['pass'] : '';
-    $this->db = $config['db'] ? $config['db'] : '';
+
+$this->user = $config['user'] ? $config['user'] : '数据库用户名';
+$this->pass = $config['pass'] ? $config['pass'] : '数据库密码';
+$this->db = $config['db'] ? $config['db'] : '数据库';
+
 - 经过以上步骤，浏览器中访问部署到地址已可正常运行
 
 ## 预览
