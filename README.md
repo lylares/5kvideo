@@ -1,6 +1,14 @@
 # 雾都TV
 雾都TV PHP含后台管理影视站源码 www.5kvideo.cc
 
+## 使用
+
+- 下载源码
+- 解压到服务器
+- 将/data/db.sql导入数据库
+- 配置/public/inc/DB.php 中数据库
+- 经过以上步骤，浏览器中访问部署到地址已可正常运行
+
 ## 预览
 
 [![](https://tva1.sinaimg.cn/large/007vLMz8ly1g11cmzpch7j31mi0u0b29.jpg)](https://www.lylares.com/wordpress-plugins-easydownload.html "雾都TV")
