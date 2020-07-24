@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: 
+Disallow: /api
+Disallow: /data
+Disallow: /install
+Disallow: /moban
+Disallow: /system
+Disallow: /test
+Disallow: /ucenter
+Disallow: /vsysmana
+Disallow: /admin
