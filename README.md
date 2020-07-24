@@ -3,10 +3,10 @@
 
 ## 使用
 
-- 下载源码
-- 解压到服务器
-- 将/data/db.sql导入数据库
-- 配置/public/inc/DB.php 中数据库
+  1.下载源码
+  2.解压到服务器
+  3.将/data/db.sql导入数据库
+  4.配置/public/inc/DB.php 中数据库
 
 * $this->user = $config['user'] ? $config['user'] : '数据库用户名';
 * $this->pass = $config['pass'] ? $config['pass'] : '数据库密码';
