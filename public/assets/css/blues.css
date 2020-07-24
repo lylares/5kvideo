@@ -1,0 +1,42 @@
+
+a:hover {
+	color: #2196F3;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-this a,
+.wdu-text-green {
+	color: #2196F3!important;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-this a:before,
+.wdu-swip-this,
+.wdu-back-green {
+	background-color: #2196F3!important;
+}
+
+.wdu-list-info .wdu-list-score:before {
+	border-top: 0.25rem solid #2196F3;
+}
+
+.wdu-rims-reds,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:hover,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:focus {
+	border-color: #2196F3!important;
+}
+
+.wdu-page-info a:hover,
+.wdu-page-info span,
+.wdu-btns-green,
+.wdu-btns-info:hover {
+	background-color: #2196F3!important;
+	border-color: #2196F3!important;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+    background:#2196F3 !important;
+}
+
+.wdu-navs-logo{
+	color: #2196F3 !important;
+}

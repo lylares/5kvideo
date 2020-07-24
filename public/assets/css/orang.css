@@ -1,0 +1,45 @@
+
+a:hover {
+	color: #ff5f00;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-this a,
+.wdu-text-green {
+	color: #ff5f00!important;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-this a:before,
+.wdu-swip-this,
+.wdu-back-green {
+	background-color: #ff5f00!important;
+}
+
+.wdu-list-info .wdu-list-score:before {
+	border-top: 0.25rem solid #ff5f00;
+}
+
+.wdu-rims-reds,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:hover,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:focus {
+	border-color: #ff5f00!important;
+}
+
+.wdu-page-info a:hover,
+.wdu-page-info span,
+.wdu-btns-green,
+.wdu-btns-info:hover {
+	background-color: #ff5f00!important;
+	border-color: #ff5f00!important;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+   background:#ff5f00!important;
+
+}
+
+.wdu-navs-logo{
+	color: #ff5f00!important;
+}
+
+

@@ -1,0 +1,167 @@
+
+body {
+	padding-top: 5.625rem;
+	background-color: #393a3f;
+	background-image: url(../img/back.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+
+a {
+	color: #999;
+}
+
+.wdu-user-input input,
+.wdu-back-whits {
+	background-color: rgba(0, 0, 0, 0.3)!important;
+	color: #999!important;
+}
+
+.wdu-head-info .wdu-pops-title,
+.wdu-head-info .wdu-navs-search .wdu-navs-submit {
+	background-color: transparent !important;
+}
+
+.wdu-text-black {
+	color: #999 !important;
+}
+
+.wdu-back-ashen {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+	color: #999 !important;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-pops-list li a,
+.wdu-rims-info {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.wdu-form-info,
+.wdu-btns-info {
+	background-color: rgba(0, 0, 0, 0.1);
+	color: #999;
+}
+
+.wdu-btns-disad,
+.wdu-btns-disad:hover {
+	background-color: rgba(0, 0, 0, 0.1)!important;
+	border-color: rgba(0, 0, 0, 0.1)!important;
+	color: #666!important;
+}
+
+.wdu-scre-list dl,
+.wdu-casc-list dl,
+.wdu-list-text .wdu-list-item a,
+.wdu-tabs-info .wdu-tabs-foot {
+	border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.wdu-play-info .wdu-play-btn,
+.wdu-tabs-info .wdu-tabs-boxs {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wdu-pops-search .wdu-pops-case,
+.wdu-line-bottom:after {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wdu-line-top:before {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wdu-line-right:after {
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr,
+.wdu-head-info .wdu-pops-user li a,
+.wdu-casc-head a {
+	border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+.wdu-line-left:before {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wdu-head-info .wdu-pops-title,
+.wdu-head-info .wdu-pops-list,
+.wdu-casc-head .wdu-this {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wdu-head-info .wdu-pops-list {
+	background-color: transparent !important;
+}
+
+.wdu-page-info a,
+.wdu-page-info em,
+.wdu-page-info span,
+.wdu-head-info .wdu-navs-search .wdu-navs-input {
+	color: #999;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.wdu-casc-head {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wdu-head-info,
+.wdu-tabs-info,
+.wdu-head-info .wdu-pops-navbar,
+.wdu-head-info .wdu-pops-record,
+.wdu-head-info .wdu-pops-search .wdu-pops-case {
+	background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+.wdu-head-info .wdu-pops-search {
+	top: 0;
+}
+
+.wdu-pops-btn {
+	display: none;
+}
+
+.wdu-head-info .wdu-pops-navbar {
+	top: 3.125rem;
+}
+
+.wdu-head-info .wdu-pops-navbar li:last-child {
+	margin-right: 0.625rem;
+}
+
+.wdu-head-info .wdu-pops-record {
+	top: 3.125rem;
+}
+
+.wdu-head-info .wdu-navs-search {
+	background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
+@media(min-width:48rem) {
+	body {
+		padding-top: 5rem;
+		background-position-x: -10px;
+		background-size: 101% 101%;
+	}
+	.wdu-head-info .wdu-navs-search {
+		background-color: transparent !important;
+	}
+	.wdu-head-info .wdu-pops-record {
+		top: 0;
+	}
+	.wdu-head-info .wdu-pops-search {
+		top: 0.125rem;
+	}
+}
+.swiper-pagination-bullet-active {
+	opacity: 1;
+    background:#0bbe06;
+}
+
+.wdu-navs-logo{
+	color: #0bbe06!important;
+}

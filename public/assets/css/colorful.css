@@ -1,0 +1,54 @@
+a:hover {
+	color: #feac5e;
+}
+
+.wdu-list-head h2,
+.wdu-list-arti h3 a,
+.wdu-list-info .wdu-list-title,
+.wdu-list-rank .wdu-list-head,
+.wdu-head-info .wdu-pops-navbar .wdu-this a,
+.wdu-text-green {
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+	-webkit-background-clip: text!important;
+	color: transparent!important;
+}
+
+.wdu-head-info .wdu-pops-navbar .wdu-this a:before,
+.wdu-swip-this,
+.wdu-back-green {
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+}
+
+.wdu-head-info .wdu-pops-user a:hover {
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+}
+
+.wdu-list-info .wdu-list-score:before {
+	border-top: 0.25rem solid #feac5e;
+}
+
+.wdu-rims-reds,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:hover,
+.wdu-head-info .wdu-navs-search .wdu-navs-input:focus {
+	border-color: #feac5e!important;
+}
+
+.wdu-page-info a:hover,
+.wdu-page-info span,
+.wdu-btns-green,
+.wdu-btns-info:hover {
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+	border-color: #feac5e!important;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+   background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+
+}
+.wdu-navs-logo{
+	background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8 100%)!important;
+    -webkit-background-clip: text!important;
+    color: transparent!important;
+}
+

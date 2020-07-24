@@ -1,0 +1,99 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: Helvetica, Arial, Microsoft Yahei, sans-serif;
+	background-image: url(/template/vfed/asset/img/back.jpg);
+	background-color: #354141;
+	background-repeat: repeat;
+	background-size: cover;
+	font-size: 14px;
+	position: fixed;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin: 0px 0px 30px;
+}
+
+li {
+	display: inline-block;
+	font-size: 42px;
+	font-weight: normal;
+	text-align: center;
+	height: 100px;
+	text-shadow: none;
+	vertical-align: middle;
+	color: #fff;
+	margin: 10px 0px;
+	height: auto;
+	padding-bottom: 15px;
+	background: transparent;
+	width: 136px;
+	border-right: 2px dashed rgba(255, 255, 255, 0.26);
+}
+
+li:last-child {
+	border: none;
+}
+
+li span {
+	line-height: 70px;
+}
+
+li div {
+	display: block;
+	font-size: 16px;
+	margin-top: 0;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.06);
+	color: #fff;
+	padding: 0;
+	height: 45px;
+	line-height: 45px;
+}
+
+.wdu-main-info {
+	width: 90%;
+	min-width: 320px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	padding-bottom: 80px;
+}
+
+.wdu-foot-info {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	bottom: 40px;
+	color: #eee;
+}
+
+@media (max-width: 768px) {
+	.wdu-main-info {
+		width: 320px;
+	}
+	li:nth-last-child(3) {
+		border: none;
+	}
+	.wdu-foot-info {
+		bottom: 20px;
+	}
+}
